@@ -1,0 +1,25 @@
+# Inserts a blank line between shell prompts
+add_newline = true
+
+[aws]
+disabled = true
+
+[azure]
+disabled = false
+
+[gcloud]
+disabled = true
+
+[git_branch]
+format = 'branch [$branch]($style) '
+
+[git_status]
+style = 'bold orange'
+
+[kubernetes]
+format = '[⛵ $cluster in kx:$context](green) '
+disabled = false
+
+[terraform]
+format = '[🏎💨 $workspace]($style)'
+
